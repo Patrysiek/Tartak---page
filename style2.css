@@ -1,0 +1,264 @@
+@media only screen and (max-width: 759px )and ( min-width:330px) {
+
+	body
+	{
+		width:100%;
+		margin: 0 auto;
+		text-align:justify;
+		font-family:Inconsolata;
+		background-attachment: fixed;
+
+	}
+
+	.title
+	{
+		margin-left: 0;
+		margin-right: 0;
+		text-align:center;
+		padding:20px;
+		background-color:#252023;		
+		letter-spacing:5px;
+	}
+	.title h1 
+	{
+	font-size:20px;	
+	color:#ffefef;
+	}
+	#scroll-to-top{
+	   position:fixed;
+	   bottom:35px;
+	   right:20px;
+	   opacity:0.8;
+
+	   
+	}
+	#scroll-to-top:hover{
+	   opacity:1;
+	}
+	#blabla{
+		   background:#CAFF79;
+	  border-radius:60px;
+		
+	}
+	.Mainheader
+	{
+		width:100%;
+		background-color:#CAFF79;
+		text-align:center;
+	}
+	.Mainheader li
+	{
+		font-size:14px;
+		padding-left:0px;
+		padding-right:8px;
+		border-right: 1px solid #36454F	;
+		color:#36454F;
+
+	}
+	.Mainheader li:first-child
+	{
+		border-left: 1px solid #36454F	;
+		padding-left:8px;
+		margin-left:0xp;
+	}
+
+	.topmenu
+	{
+			padding-bottom:1px;
+	}
+
+
+	@keyframes disaperanceImg {
+		0%,100% {
+			opacity: 0;
+			}
+		50% {
+			opacity: 1;
+			}
+
+	}
+
+
+	.container{
+		height:300px;
+		width:100%;
+		  background: transparent;
+		
+		
+	}
+	.container h2{
+		text-align:center;
+		line-height: 300px;
+		color:#ffefef;
+		margin: 0 auto;
+		font-size:50px;
+		
+	}
+	.parallax{
+		width:100%;
+	}
+	.about{
+		width:100%;
+		background-color:#252023;
+		
+	}
+	.aboutTo{
+		font-size:13px;
+		margin: 0 auto;	
+		padding-left:20px;
+		padding-right:20px;
+		width:80%;
+		padding:25px;
+
+		
+	}
+	.aboutTo p{
+		
+		padding:5px;
+		text-align:center;
+		/*color:#010024;*/
+		color:#ffefef;
+		
+	}
+
+	.offer{
+		width:100%;
+		background-color:#252023;
+	}
+	.oferta{
+		margin: 0 auto;	
+		padding-left:20px;
+		padding-right:20px;
+		padding:25px;
+		font-size:13px;
+		width:80%;
+
+	}
+	.oferta p{
+		
+		padding:5px;
+		text-align:center;
+		/*color:#010024;*/
+		color:#ffefef;
+	}
+	.oferta li{
+		color:#ffefef;
+	}
+	.oferta b{
+		color:#ff220f;
+	}
+
+	.gallery{
+		
+		width:100%;
+		background-color:#252023;
+		
+	}
+
+	.mySlides .numbertext, img{
+		margin-top:40px;
+	}
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	.kontakt
+	{
+		margin:0 auto;
+		padding-left:0px;
+		padding-top:20px;
+		padding-bottom:20px;
+		background-color:#252023;
+		color:#ffefef;
+	}
+	.kontakt h1{
+
+		text-align:center;	
+		letter-spacing:5px;
+	}
+	#WRAPPER {
+		 height:1200px;
+		margin:0 auto;
+		width:100%;
+	}
+
+	.formularz{
+		float:left;
+		padding:10px;
+		padding-right:0px;
+		width:100%;
+		margin:0 auto;
+		text-align:center;
+		padding-left:0px;
+
+
+	}
+	.formularz p{
+		
+		margin:3px;
+		margin-top:15px;
+	}
+	.formularz b{
+		color:red;
+		text-align:center;
+		font-size:14px;
+	}
+
+	#message_good{
+		color:green;
+		text-align:center;
+		font-size:8px;
+	}
+	.formularz h3{
+		font-size:20px;
+	}
+	.dane_kontaktowe p{
+		margin:3px;
+		margin-top:15px;
+	}
+	.dane_kontaktowe h3{
+		font-size:25px;
+		margin:25px;
+	}
+	.dane_kontaktowe{
+		float:left;
+		padding:0px;
+		padding-left:150px;
+		width:100%;
+			 margin:0 auto;
+			 text-align:center;
+			 padding-left:0px;
+	}
+
+	.dane_kontaktowe p{
+		margin-top:35px;
+		margin-bottom:5px;
+		
+	}
+	 #copyright{
+	line-height:50px;
+	margin: 0 auto;
+	text-align:center;
+	font-family:courier;
+	font-weight:100;
+	font-size:10px;
+	color:white;
+	height:50px;
+	width:50%;
+	background:black;
+	border-radius:10px 10px 0px 0px;
+	
+}
+input[type=text] {
+   width:250px;
+}
+input[type=email] {
+   width:250px;
+}
+input[type=tel] {
+   width:250px;
+}
+textarea{
+	width:250px;
+	height:100px;
+}
+
+}
